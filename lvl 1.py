@@ -1,6 +1,3 @@
-Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>>
 positive_sum = 0
 positive_count = 0
 negative_sum = 0
@@ -33,3 +30,4 @@ else:
 print("avg negative number is", int(avg_negative))
 
 print("avg positive number is", int(avg_positive))
+
