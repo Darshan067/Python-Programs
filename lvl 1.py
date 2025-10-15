@@ -1,6 +1,6 @@
 Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
->>> # Initialize counters and sums
+>>>
 positive_sum = 0
 positive_count = 0
 negative_sum = 0
@@ -18,7 +18,7 @@ while True:
         negative_sum += num
         negative_count += 1
 
-# Calculate averages
+
 if positive_count > 0:
     avg_positive = positive_sum / positive_count
 else:
@@ -29,6 +29,7 @@ if negative_count > 0:
 else:
     avg_negative = 0
 
-# Print results
+
 print("avg negative number is", int(avg_negative))
+
 print("avg positive number is", int(avg_positive))
